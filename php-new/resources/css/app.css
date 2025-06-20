@@ -1,0 +1,32 @@
+.chat-messages {
+    padding: 1rem;
+    background: #f8f9fa;
+}
+
+.message {
+    margin-bottom: 1rem;
+    max-width: 70%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.message.sent {
+    background: #007bff;
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 0;
+}
+
+.message.received {
+    background: #e9ecef;
+    margin-right: auto;
+    border-bottom-left-radius: 0;
+}
+
+.message-time {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    text-align: right;
+    margin-top: 0.25rem;
+}

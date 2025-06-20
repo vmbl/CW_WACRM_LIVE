@@ -1,0 +1,47 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+.env.testing
+
+# Laravel 12 specific
+/bootstrap/cache/*.php
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Vite build
+/public/hot
+/public/build
+/public/mix-manifest.json
+/public/assets
+
+# IDEs and Editors
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.lock
+composer.phar
+
+# npm
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+*.log
